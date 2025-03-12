@@ -1,0 +1,48 @@
+.navBarMainContainer {
+    height: 5rem;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.navBarMain {
+    height: 2.5rem;
+    width: 80%;
+    background-color: white;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-right: 10px !important;
+    padding-left: 10px !important;
+
+}
+
+.logo {
+    width: 5rem;
+    height: 4rem;
+}
+
+.btnComissoessContainer {
+    width: 10rem;
+    display: flex;
+    justify-content: space-around;
+}
+
+.btnComissoes{
+    border: none;
+    font-family: basic;
+    padding: 3px !important;
+    width: 10rem;
+    height: 80%;
+    background-color: white;
+    transition: 0.2s;
+}
+
+.btnComissoes:hover{
+    cursor: pointer;
+    background-color: rgb(231, 229, 229);
+
+}

@@ -1,0 +1,30 @@
+.cardMain{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #101010;
+    border: none;
+    border-radius: 20px;
+    height: 18rem;
+    width: 18rem;
+}
+
+.cardTexts{
+    width: 10rem;
+    font-size: 30px;
+    font-family: basic;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.cardValueTexts{
+    width: 10rem;
+    font-family: semibold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}

@@ -1,0 +1,145 @@
+.mainLogin{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    background-image: url('../images/BG.png');
+    overflow: hidden !important;
+}
+
+
+.headerContainerLogin {
+    margin-top: 2rem !important; 
+    height: 5rem;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.headerLogin {
+    margin-top: 10px !important;
+    height: 2.5rem;
+    width: 80%;
+    background-color: white;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.midleContainerLogin {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 80%;
+    background-color: white;
+    margin-top: 5rem !important;
+    border-radius: 30px;
+}
+
+.midleLogin {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    flex-direction: row;
+    flex-direction: column;
+}
+
+.formBox{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+    min-height: 70vh;
+}
+
+.fotoLogin{
+    margin-top: 3rem !important;
+    margin-bottom: 3rem !important;
+    border-radius: 50px ;
+    max-width:500px;
+    max-height:600px;
+    width: auto;
+    height: auto;
+}
+
+
+
+.actionBox{
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    flex-direction: column;
+}
+
+.spanSizeLogin{
+    color: #565656;
+    font-size: 30px;
+    font-family: basic;
+    margin-bottom: 20px !important;
+    margin-top: 20px !important;
+
+}
+.spanLabelLogin{
+    font-family: semibold;
+    font-size: 20px;
+}
+
+.inputLogin{
+    padding: 10px 0px 10px 0px !important;
+    width: 80%;
+    border: none;
+    border-bottom: 2px solid #E6EAEE;
+    color: #999999;
+    font-family: basic;
+    font-size: 14px;
+    margin-bottom: 20px !important;
+}
+.actionsNavigate{
+    padding: 0px 0px 10px 0px !important;
+    width: 80%;
+    height: 6rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.loginButton{
+    height: 3rem;
+    width: 8rem;
+    color: white;
+    background-color: black;
+    border-radius: 10px;
+    border: none;
+    font-family: basic;
+    font-size: 18px;
+}
+
+.loginButton:hover{
+ cursor: pointer;
+}
+
+.info{
+    font-family: basic;
+    font-size: 16px;
+    color: #565656;
+}
+
+.fgpBtn{
+    font-family: basic;
+    font-size: 16px;
+    color: #000000;
+    border:none;
+    background-color: white;
+    transition: 0.2s;
+}
+
+.fgpBtn:hover{
+    cursor: pointer;
+    color: #565656;
+
+
+}

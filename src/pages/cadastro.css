@@ -1,0 +1,137 @@
+.mainCadastro{
+
+    background-image: url("../images/BG.png");
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+}
+
+.cadastrobox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    background-color: white;
+    width: 90%;
+    padding: 20px !important;
+    margin-bottom: 10rem !important;
+}
+
+
+.columnCadastro{
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    flex-direction: column;
+    height: 100%;
+}
+
+.fotoCadastro{
+    border-radius: 50px;
+}
+
+.inputCadastro{
+    padding: 10px 0px 10px 0px !important;
+    width: 80%;
+    border: none;
+    border-bottom: 2px solid #E6EAEE;
+    color: #999999;
+    font-family: basic;
+    font-size: 14px;
+    margin-bottom: 20px !important;
+}
+
+.space{
+    width: 4rem;
+}
+
+.spanLabelC{
+    font-family: semibold;
+    font-size: 20px;
+}
+
+.spanCadastro{
+    font-family: semibold;
+    margin-bottom: 20px !important;
+}
+
+.fotoTitle{
+    margin-bottom: 20px !important;
+}
+
+.bottomLine{
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+}
+
+.inserirC{
+    padding: 20px !important;
+    background-color: black;
+    color: white;
+    font-family: semibold;
+    border: none;
+    border-radius: 10px;
+    width: 9rem;
+    height: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.3s;
+}
+
+.inserirC:hover{
+    cursor: pointer;
+    background-color: #565656;
+    color: rgb(0, 0, 0);
+  
+}
+
+.lowtext{
+    font-family: basic;
+    font-size: 12px;
+    color: #565656;
+}
+
+.btnC{
+    border: 1px solid black;
+    background-color: white;
+    width: 4.5rem;
+    padding: 3px !important;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+
+.btnC:hover {
+    cursor: pointer !important;
+    background-color: #bbbbbb;
+}
+
+.passWordContainer{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    flex-direction: row;
+    width: 100%;
+}
+
+.selectType{
+    padding: 10px !important;
+    margin-top: 5px !important;
+    margin-bottom: 5px !important;
+    border: none;
+    border-bottom: 1px solid #bbbbbb;
+    width: 20%;
+    font-family: basic;
+}
+
+.loaderContainer{
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 80vh;
+}

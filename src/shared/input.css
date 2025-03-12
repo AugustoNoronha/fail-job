@@ -1,0 +1,73 @@
+.inputContainer{
+    width: 40%;
+
+}
+
+.inputContainerBase{
+  width: 30%;
+}
+
+.inputPdfConatoner{
+    width: 40%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.inputPdfConatonerBase{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+
+
+.inputBase{
+    padding: 10px 0px 10px 0px !important;
+    border: none;
+    border-bottom: 2px solid #E6EAEE;
+    color: #999999;
+    font-family: basic;
+    font-size: 14px;
+    margin-bottom: 20px !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.spanBase{
+    font-family: semibold;
+    font-size: 20px;
+}
+
+
+
+.custom-file-input::-webkit-file-upload-button {
+    visibility: hidden;
+  }
+  .custom-file-input::before {
+    content: 'Anexar PDF da Proposta';
+    display: flex;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 15px;
+    font-family: basic;
+    background-color: black;
+    border: none;
+    color:#999999;
+    height: 2.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .custom-file-input:hover::before {
+    border-color: black;
+  }
+
+  i{
+    position: absolute;
+    color: #999999;
+  }

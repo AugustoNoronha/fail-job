@@ -1,0 +1,40 @@
+.footer{
+    margin-top: 5rem !important;
+    height: 5rem;
+    width: 100%;
+    background-color: black;
+    border-top-left-radius: 50px;
+    border-top-right-radius:50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    left: 0;
+  bottom: 0;
+  z-index: 3000;
+}   
+
+.whatsapp{
+    margin-right: 8rem !important;
+    margin-left: 1rem !important;
+}
+
+.logo2{
+    margin-left: 8rem !important;
+}
+
+.footerSpan{
+    z-index: 3001;
+    font-family: basic;
+    font-size: 20px;
+    color: white;
+    
+}
+
+.rowfooter{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    
+}

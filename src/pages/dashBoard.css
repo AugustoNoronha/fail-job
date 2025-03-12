@@ -1,0 +1,96 @@
+.dashBoardContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.dashBoardMain{
+    display: flex;
+    width: 80%;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+}
+
+.columnDash{
+    height: 8rem;
+    display: flex;
+    width:35%;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+}
+
+.BDash{
+    height: 3rem;
+    background-color: #21B9FF;
+    color: white;
+    font-family: basic;
+    width: 100%;
+    font-size: 20px;
+    border-radius: 10px;
+    border:none;
+}
+
+.BDash:hover{
+    cursor: pointer;
+}
+
+.rowDB{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+    width: 100%;
+    margin-bottom: 3rem !important;
+}
+
+.columnDash2{
+    display: flex;
+    width:100%;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.card{
+    background-color: #101010;
+    border: none;
+    border-radius: 20px;
+    height: 18rem;
+    width: 18rem;
+}
+
+.reactTable{
+    width: 90%;
+    background-color: #21B9FF;
+    border-radius: 20px;
+    -webkit-box-shadow: 5px 5px 16px 5px rgba(0,0,0,0.43); 
+    box-shadow: 5px 5px 16px 5px rgba(0,0,0,0.43);
+    margin-bottom: 6rem !important;
+}
+
+
+
+.cardActionContainer:hover{
+    cursor: pointer;
+    border-radius: 20px;
+    -webkit-box-shadow: 5px 5px 16px 5px rgba(0,0,0,0.43); 
+    box-shadow: 5px 5px 16px 5px rgba(0,0,0,0.43);
+}
+
+.PropRegView{
+    height: 3rem;
+    background-color: #101010;
+    color: white;
+    font-family: basic;
+    width: 100%;
+    font-size: 20px;
+    border-radius: 10px;
+    border:none;
+}
+
+.PropRegView:hover{
+    cursor: pointer;
+}

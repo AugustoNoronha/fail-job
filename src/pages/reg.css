@@ -1,0 +1,86 @@
+.registroContainer {
+    width: 100%;
+    display: flex;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.containerR {
+    width: 80%;
+    height: 90vh;
+    background-color: white;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    margin-top: 3rem !important;
+}
+
+.relacao {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.titleR {
+    margin-bottom: 3rem !important;
+}
+
+.RButton {
+    height: 3rem;
+    background-color: #21B9FF;
+    color: white;
+    font-family: basic;
+    width: 40%;
+    font-size: 20px;
+    border-radius: 10px;
+    border: none;
+}
+
+.RButton:hover {
+    cursor: pointer;
+}
+
+.rowReg {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    width: 86%;
+}
+
+.spanText {
+    margin-top: 1rem !important;
+    font-family: semibold;
+    font-size: 20px;
+}
+
+.buttonModal {
+    font-family: basic;
+    border: none;
+    color: white;
+    background-color: black;
+    padding: 5px !important;
+    height: 3rem;
+    width: 40%;
+    border-radius: 20px;
+}
+
+.buttonModal:hover{
+    background-color: rgb(65, 62, 62);
+
+}
+
+.rowReg{
+    margin-top: 2rem !important;
+    margin-bottom: 2rem !important;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+}

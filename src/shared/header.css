@@ -1,0 +1,42 @@
+.headerContainer {
+    height: 5rem;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header {
+    height: 2.5rem;
+    width: 80%;
+    background-color: white;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    width: 5rem;
+    height: 4rem;
+}
+
+.btnsContainer {
+    width: 10rem;
+    display: flex;
+    justify-content: space-around;
+}
+
+.btn {
+    font-family: basic;
+
+    border: 1px solid black;
+    background-color: white;
+    width: 4.5rem;
+    padding: 3px !important;
+    border-radius: 10px;
+}
+
+.btn:hover{
+    cursor: pointer;
+}

@@ -1,0 +1,197 @@
+* {
+    margin: 0 !important;
+    padding: 0 !important;
+
+}
+
+html{
+    overflow: hidden;
+
+}
+
+.midleContainer {
+    height: 90vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.headerContainerH {
+    position: relative;
+    margin-bottom: 3rem !important;
+}
+
+.midle {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    flex-direction: row;
+    margin-bottom: 5rem !important;
+    width: 80%;
+}
+
+.conatinerX {
+    display: flex;
+    flex-direction: column;
+}
+
+.textBox {
+    width: 75%;
+    height: 10rem;
+    margin-bottom: 1rem !important;
+}
+
+.spanSize {
+    left: 1px;
+    font-family: semibold;
+    font-size: 120px;
+    color: #282828;
+}
+
+.spanSize2 {
+    left: 1px;
+    font-family: basic;
+    font-size: 40px;
+    color: #282828;
+}
+
+.spanSize3 {
+    left: 1px;
+    font-family: semibold;
+    font-size: 40px;
+    color: #282828;
+}
+
+.spanSize4 {
+    left: 1px;
+    font-family: semibold;
+    font-size: 20px;
+    color: #282828;
+    margin-top: 10px !important;
+}
+
+
+.spanSize5 {
+    left: 1px;
+    font-family: basic;
+    font-size: 20px;
+    color: #282828;
+    margin-top: 10px !important;
+    line-height: 2.5rem;
+}
+
+.btnSaibaMais {
+    margin-top: 3.5rem !important;
+    width: 14rem;
+    height: 2.5rem;
+    font-family: basic;
+    border-radius: 10px;
+    background-color: #282828;
+    border: none;
+    color: white;
+    font-size: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+
+.fraseContainer {
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    flex-direction: column;
+}
+
+.bottomContainer {
+    background-image: url("../images/BG.png");
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+}
+
+.bottomTopContainer {
+    width: 80%;
+    border-radius: 10px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    margin-bottom: 5rem !important;
+
+}
+
+.foto2Home {
+    width: 30rem;
+}
+
+.fotoBottomContainer {
+    width: 100%;
+    margin-bottom: 10rem !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.metadeContainer {
+    height: fit-content;
+    width: 40%;
+}
+
+.foto2HomeSide {
+    width: 60%;
+    height: 16.3rem;
+    border-radius: 50px;
+    background-color: white;
+    position: absolute;
+    right: 11.8rem;
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    flex-direction: column;
+    padding-left: 20px !important;
+    padding-top: 20px !important;
+}
+
+.row {
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    margin-top: 3rem !important;
+}
+
+.column {
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-direction: column;
+}
+
+.spacamento {
+    height: 100%;
+    width: 8rem;
+}
+
+.foto1 {
+    width: 100%;
+}
+
+.foto3 {
+    width: 85%;
+    margin-bottom: 10rem !important;
+}
+
+.img1Container {
+    position: absolute;
+    width: 100%;
+}
+
+.foto1Homepage {
+    width: 80%;
+    z-index: -1;
+}

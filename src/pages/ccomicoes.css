@@ -1,0 +1,91 @@
+.cadastroComicoesConatiner {
+    width: 80%;
+    background-color: white;
+    border-radius: 30px;
+    margin-top: 3rem !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    min-height: 70vh;
+    padding-bottom: 3rem !important;
+}
+
+.cadastroComicoesMain {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.alterar {
+    margin-top: 3rem !important;
+}
+
+.formCadastroComicoes {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+}
+
+.btnCComicoes{
+    height: 3rem;
+    background-color: #21B9FF;
+    color: white;
+    font-family: basic;
+    width: 40%;
+    font-size: 20px;
+    border-radius: 10px;
+    border:none;
+    transition: 0.2s;
+}
+
+.btnCComicoesModal{
+    height: 3rem;
+    background-color: #21B9FF;
+    color: white;
+    font-family: basic;
+    width: 30%;
+    font-size: 20px;
+    border-radius: 10px;
+    border:none;
+    transition: 0.2s;
+}
+
+.btnCComicoesModal:hover{
+    cursor: pointer;
+    background-color: #29a4dd;
+}
+
+.btnCComicoes:hover{
+    cursor: pointer;
+    background-color: #29a4dd;
+
+}
+
+.cardOpenModal{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border: 2px solid #999999;
+    width: 75%;
+    margin-top: 5px !important;
+    margin-bottom: 5px !important;
+    padding: 1.5rem !important;
+    border-radius: 20px;
+    
+    
+}
+
+.dpfDowload{
+    background-color: white;
+    border: none;
+}
+
+.colorStatus{
+    width: 1rem;
+    height: 1rem;
+    border-radius: 50px;
+}
